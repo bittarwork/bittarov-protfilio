@@ -1,0 +1,97 @@
+#home-header  {
+    height: 50vh;
+}
+#home-header .main-nav {
+    display : flex;
+    flex-direction: column;
+}
+#home-header .main-nav ul {
+    margin-top: 1rem;
+}
+#home-header .header-contante h1  {
+    font-size: 1.5rem;
+}
+#home-header .header-contante p {
+    font-size: 1rem;
+}
+#bittarov h2 {
+    font-size: 1.5rem;
+}
+#bittarov img {
+    width: 250px;
+}
+#bittarov img:hover { 
+    width : 270px ; 
+}
+#bittarov  p  { 
+    font-size: 1rem;
+}
+.line { 
+    width: 100px ; 
+}
+#specialized .top h2 {
+    font-size: 1.5rem;
+}
+#specialized .top p { 
+    font-size: 1rem;
+}
+#specialized .bottom {
+    display: block;
+}
+#skill .top-section h2 { 
+    font-size: 1.5rem;
+}
+#skill .top-section p {
+    font-size: 1rem;
+}
+#skill .botoom-section  { 
+    display: block;
+}
+#second-nav {
+    height: 30vh;
+    width: 100%;
+}
+.seconde-nav-continar { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seconde-nav-continar img { 
+    margin: 1rem 0 ;
+}
+#aboutme .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#aboutme .about-me .summry { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#aboutme .about-me .summry .my-photo  { 
+    border-right: 0px solid #eeb462;
+    border-bottom: 5px solid #eeb462;
+}
+#aboutme .tech-skill .cards  {
+    display: flex;
+    flex-direction: column;
+}
+#aboutme .language .lang-cards {
+    display: flex;
+    flex-direction: column;
+}
+#contact .contacte-continar form .text-fields  { 
+    display: flex;
+    flex-direction:column;
+}
+#contact .contacte-continar form textarea,input { 
+    width: 275px;
+}
+.personal-cards { 
+    display: flex;
+    flex-direction: column;
+}
