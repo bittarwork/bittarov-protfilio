@@ -142,10 +142,7 @@ img {
 #bittarov img {
     width: 400px;
     margin: 1rem 0;
-    transition: all 0.5s;
-}
-#bittarov img:hover {
-    width: 450px;
+    animation: shrink 1s infinite alternate;
 }
 #bittarov  p {
     font-size: 1.3rem;
@@ -641,3 +638,11 @@ img {
 }
 
 
+@keyframes shrink {
+  0% {
+    width: 400px;
+  }
+  100% {
+    width: 430px;
+  }
+}
