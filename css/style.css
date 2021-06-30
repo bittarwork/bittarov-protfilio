@@ -140,7 +140,7 @@ img {
     color: var(--secondery-color);
 }
 #bittarov img {
-    width: 400px;
+    width: 300px;
     margin: 1rem 0;
     animation: shrink 1s infinite alternate;
 }
@@ -640,9 +640,9 @@ img {
 
 @keyframes shrink {
   0% {
-    width: 400px;
+    width: 300px;
   }
   100% {
-    width: 430px;
+    width: 340px;
   }
 }
